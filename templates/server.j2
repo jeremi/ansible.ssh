@@ -111,3 +111,8 @@ UseDNS {{ 'yes' if openssh_server_vars.UseDNS|default(openssh_server_defaults.Us
 {{ name }} {{ value }}
 {% endif %}
 {% endfor %}
+
+
+{% if openssh_additional_config %}
+{{ openssh_additional_config }}
+{% endif %}
