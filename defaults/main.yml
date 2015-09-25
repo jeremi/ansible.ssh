@@ -93,3 +93,5 @@ openssh_client_defaults:      # Default values. For setup client use 'openssh_cl
   HashKnownHosts: yes
   GSSAPIAuthentication: yes
   GSSAPIDelegateCredentials: no
+
+openssh_additional_config: ""
